@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --background-base-color: #242424;
+    --column-color: #191B1D;
+    --border-column-color: #757575;
+    --text-color-one: #F6F6F6;
+    --text-color-two: #384490;
+    --text-color-three: #A7383A;
+    --text-color-four: #D9C4A8;
+    --text-color-five: #479038;
+}

@@ -25,7 +25,6 @@ html {
     --text-color-four: #D9C4A8;
     --text-color-five: #479038;
 }
-
 h1, h3, p, span {
     color: var(--text-color-one);
 }

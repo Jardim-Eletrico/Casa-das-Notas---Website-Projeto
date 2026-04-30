@@ -1,0 +1,19 @@
+.white-color {
+    color: var(--text-color-one);
+}
+
+.blue-color {
+    color: var(--text-color-two);
+}
+
+.red-color {
+    color: var(--text-color-three);
+}
+
+.pastel-color {
+    color: var(--text-color-four);
+}
+
+.green-color {
+    color: var(--text-color-five);
+}

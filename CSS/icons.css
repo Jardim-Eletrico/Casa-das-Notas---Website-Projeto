@@ -1,0 +1,11 @@
+.user-info > .icon-navbar-adjustment {
+    color: #ffffff;
+    height: 3rem;
+    width: 3rem;
+    background-repeat: no-repeat;
+}
+
+.grid-items-content > svg{
+     transform: scale(9);
+}
+

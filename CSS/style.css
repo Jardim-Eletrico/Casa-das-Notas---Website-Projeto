@@ -1,1 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Syne+Mono&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Archivo:ital,wght@0,100..900;1,100..900&family=Syne+Mono&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Archivo:ital,wght@0,100..900;1,100..900&family=IM+Fell+French+Canon+SC&family=Syne+Mono&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url("global.css");
+@import url("layout.css");
+@import url("responsividade.css");
+@import url("icons.css");
+@import url("colors.css");
+
+@font-face {
+    font-family: 'Hemerneus One';
+    src: url("../Assets/Fonts/HermeneusOne-Regular.ttf");
+    font-weight: normal;
+    font-style: normal
+} 

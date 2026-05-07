@@ -11,10 +11,9 @@ html,body {
     background-color: var(--background-base-color);
 }
 
-html {
+html, body {
     font-size: clamp(14px, 1.2vw, 26px);
 }
-
 
 :root {
     --background-base-color: #242424;
@@ -26,7 +25,6 @@ html {
     --text-color-four: #D9C4A8;
     --text-color-five: #479038;
 }
-
 h1, h3, p, span {
     color: var(--text-color-one);
 }
@@ -36,17 +34,11 @@ h1 {
     user-select: none;
 }
 
-svg {
-    width: auto;
-    height: 100%;
-}
-
 .column-adjustment > span {
     font-family: Alan Sans;
     text-align: center;
 }
 
-.grid-item-container > span {
+.grid-item-content > span {
     font-family: IM Fell French Canon SC;
-    font-size: 2.5em;
 }

@@ -1,0 +1,64 @@
+/*
+    ===================
+    Background Decoration
+    ===================
+*/
+
+.background-decoration {
+    display: grid;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+
+    z-index: 0;
+    overflow: hidden;
+}
+
+.background-decoration div {
+    position: relative;
+}
+
+.background-decoration div > img {
+    width: auto;
+    position: absolute;
+    opacity: 50%;
+}
+
+/* ===== Grid position configurations ===== */
+
+.background-decoration div:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.background-decoration div:nth-child(2) {
+    grid-column: 3;
+    grid-row: 2;
+    left: 5rem;
+}
+
+.background-decoration div:nth-child(3) {
+    grid-column: 1;
+    grid-row: 3;
+    bottom: 5rem;
+    right: 15rem;
+}
+
+/* ===== Height and Rotate configurations ===== */
+
+.background-decoration div:nth-child(1) img {
+    height: 20rem;
+}
+
+.background-decoration div:nth-child(2) img {
+    height: 18rem;
+    transform: rotate(17deg);
+}
+
+.background-decoration div:nth-child(3) img {
+    height: 30rem;
+    transform: rotate(-20deg);
+}

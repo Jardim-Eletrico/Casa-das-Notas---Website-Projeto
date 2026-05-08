@@ -3,6 +3,16 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    border: none;
+}
+
+html,body {
+    display: block;
+    background-color: var(--background-base-color);
+}
+
+html, body {
+    font-size: clamp(14px, 1.2vw, 26px);
 }
 
 :root {
@@ -15,4 +25,20 @@
     --text-color-four: #D9C4A8;
     --text-color-five: #479038;
 }
+h1, h3, p, span {
+    color: var(--text-color-one);
+}
 
+h1 {
+    cursor:default;
+    user-select: none;
+}
+
+.column-adjustment > span {
+    font-family: Alan Sans;
+    text-align: center;
+}
+
+.grid-item-content > span {
+    font-family: IM Fell French Canon SC;
+}

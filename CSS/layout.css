@@ -1,0 +1,187 @@
+/*
+    ===================
+          Navbar
+    ===================
+*/
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100vw;
+    height: 8rem;
+
+    background-color: var(--column-color);
+}
+
+.logo-container {
+    display: flex;
+
+    background-image: url("../Assets/Images/casadasnotas_logo.png");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+    height: 100%;
+    min-width: 12rem;
+}
+
+.navbar-space {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 100%;
+
+    border: transparent;
+    border-bottom: var(--border-column-color);
+    border-style: solid;
+    border-radius: 0px;
+}
+
+.navbar-title {
+    display: block;
+    font-family: Young Serif;
+
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--text-color-one);
+
+    flex: 1;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding-bottom: 1rem;
+    gap: 1.5rem;
+
+    width: fit-content;
+    height: 100%;
+}
+
+.user-info > .column-adjustment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileimg-container {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 80px;
+    background-color: gray;
+}
+
+
+
+/* 
+    ====================
+    Content Configuration
+    ====================
+*/
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.medium-content {
+    display: flex;
+    flex-direction: row;
+
+    flex: 1;
+}
+
+.main-infos-container {
+    display: flex;
+    position: relative;
+
+    justify-content: center;
+    align-items: center;
+
+    flex: 1;
+}
+
+/*
+    ===================
+          Sidebar
+    ===================
+*/
+
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    min-height: 100%;
+    min-width: 12rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+
+    background-color: var(--column-color);
+    border: transparent;
+    border-right: var(--border-column-color);
+    border-style: solid;
+}
+
+.sidebar-container > p {
+    font-family: Inter;
+    font-size: 1rem;
+}
+
+
+
+/*
+    ===================
+      Infos Container
+    ===================
+*/
+
+.grid-infos {
+    display: grid;
+    grid-template-columns: repeat( 3, minmax(0, 1fr));
+
+    gap: 4rem;
+
+    z-index: 1;
+    align-items: start;
+}
+
+.grid-item-container {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 2rem;
+
+
+    background-color: var(--column-color);
+    border-radius: 14px;
+
+    font-size: 1rem;
+}
+
+.grid-items-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+}
+
+.grid-items-content h2 {
+    font-family: Hemerneus One;
+    font-size: 4rem;
+    font-weight: 300;
+}

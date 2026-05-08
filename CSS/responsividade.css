@@ -4,18 +4,29 @@
         border-bottom: var(--border-column-color);
         border-style: solid;
     }
+
     .sidebar-container {
         display: none;
     }
 
     .grid-infos {
         display: grid;
-        grid-template-columns: repeat(2, 18rem);
-        grid-template-rows: repeat(3, 10rem) auto;
+        grid-template-columns: repeat( 2, minmax(0, 1fr));
 
         gap: 4rem;
 
         z-index: 1;
+        align-items: start;
+    }
+
+    .main-infos-container {
+        display: flex;
+
+        align-items: baseline;
+        justify-content: center;
+        padding-top: 3rem;
+
+        flex: 1;
     }
 }
 
@@ -24,18 +35,40 @@
         border: transparent;
         border-bottom: var(--border-column-color);
         border-style: solid;
+
+        min-width: 5rem;
+        max-width: 7rem;
     }
+
+    .navbar-title {
+        display: block;
+        font-family: Young Serif;
+
+        font-size: 0.8rem;
+        text-align: center;
+        color: var(--text-color-one);
+    }
+
     .sidebar-container {
         display: none;
     }
 
     .grid-infos {
         display: grid;
-        grid-template-columns: repeat(1, 18rem);
-        grid-template-rows: repeat(6, 10rem) auto;
+        grid-template-columns: repeat( 1, minmax(0, 1fr));
 
         gap: 4rem;
 
         z-index: 1;
+        align-items: start;
+    }
+
+    .main-infos-container {
+        display: flex;
+
+        justify-content: center;
+        padding-top: 3rem;
+
+        flex: 1;
     }
 }

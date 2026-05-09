@@ -54,11 +54,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     
-
-    width: 100%;
+    gap: 3rem;
+    width: fit-content;
     height: 3rem;
+
+    padding-left: 2rem;
 
 }
 
@@ -66,7 +67,6 @@
     font-family: Alan Sans ;
     font-size: 1.5rem;
 
-    padding-left: 2em;
 }
 
 .pesquisa{
@@ -77,6 +77,7 @@
 }
 
 .estoque-text-field{
+    width: 17rem;
     height: 2rem;
 
     padding: 0 1rem;
@@ -88,5 +89,16 @@
 
     color: white;
 
+    font-family: Alan Sans;
+    font-size: 1rem;
+
     box-sizing: border-box;
+}
+
+.estoque-text-field::placeholder{
+    font-family: Alan Sans;
+    font-size: 0.9rem;
+
+    color: var(--text-textfield-colour);
+    opacity: 100%;
 }

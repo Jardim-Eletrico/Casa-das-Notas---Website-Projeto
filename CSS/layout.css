@@ -9,8 +9,8 @@
     flex-direction: row;
     align-items: center;
 
-    width: 100vw;
-    height: 8rem;
+    width: 100%;
+    min-height: 8rem;
 
     background-color: var(--column-color);
 }
@@ -94,7 +94,7 @@
     flex-direction: column;
 
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .medium-content {
@@ -181,7 +181,7 @@
 }
 
 .grid-items-content h2 {
-    font-family: Hemerneus One;
+    font-family: Hermeneus One;
     font-size: 4rem;
     font-weight: 300;
 }

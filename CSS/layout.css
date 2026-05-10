@@ -133,6 +133,8 @@
     border: transparent;
     border-right: var(--border-column-color);
     border-style: solid;
+
+    z-index: 1;
 }
 
 .sidebar-container > p {

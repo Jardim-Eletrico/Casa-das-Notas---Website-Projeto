@@ -1,3 +1,9 @@
+/*
+    =============
+      Home page
+    =============
+*/
+
 @media screen and (max-width: 1024px) {
     .logo-container {
         border: transparent;
@@ -70,5 +76,30 @@
         padding-top: 3rem;
 
         flex: 1;
+    }
+}
+
+
+
+/*
+    ===============
+      Saldo do mês
+    ===============
+*/
+
+@media screen and (max-width: 1024px) {
+
+    .container-frame--infos > img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container-frame--infos > img {
+        display: none;
+    }
+
+    .info-top-content--value-container, .info-top-content--value-container svg {
+        display: none;
     }
 }

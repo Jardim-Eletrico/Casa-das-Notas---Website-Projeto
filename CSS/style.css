@@ -4,11 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url("global.css");
 @import url("layout.css");
+@import url("estoque.css");
 @import url("responsividade.css");
 @import url("icons.css");
 @import url("colors.css");
 @import url("background-decor.css");
-@import url("estoque.css");
+
 
 @font-face {
     font-family: 'Hemerneus One';

@@ -1,3 +1,4 @@
+
 .coluna-estoque{
     z-index: 1;
 
@@ -8,21 +9,19 @@
 
     width: 100%;
     height: 100%;
-
-    padding-top: 34px;
+    padding-top: 2rem;
     gap: 3.2rem;
 }
 .titulo-estoque{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     
     background-color: var(--column-color);
 
     width: 50rem;
     height: 7rem;
-
-    padding: 0.6rem;
 
     
     border: 1px solid var(--border-column-color);
@@ -31,6 +30,8 @@
 
 .titulo-estoque > h1{
     font-size: 4rem;
+    font-family: Young Serif;
+    font-weight: 1;
 }
 
 .tabela-estoque{
@@ -50,7 +51,7 @@
 
 }
 
-.nav-estoque{
+.nav-field{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -63,7 +64,7 @@
 
 }
 
-.nav-estoque > p{
+.nav-field > p{
     font-family: Alan Sans ;
     font-size: 1.5rem;
 

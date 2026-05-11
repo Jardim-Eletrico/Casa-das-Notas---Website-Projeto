@@ -1,0 +1,237 @@
+
+/*
+    =============
+      Home page
+    =============
+*/
+
+@media screen and (max-width: 1024px) {
+    .logo-container {
+        border: transparent;
+        border-bottom: var(--border-column-color);
+        border-style: solid;
+    }
+
+    .sidebar-container {
+        display: none;
+    }
+
+    .grid-infos {
+        display: grid;
+        grid-template-columns: repeat( 2, minmax(0, 1fr));
+
+        gap: 4rem;
+
+        z-index: 1;
+        align-items: start;
+    }
+
+    .main-infos-container {
+        display: flex;
+
+        align-items: baseline;
+        justify-content: center;
+        padding-top: 3rem;
+
+        flex: 1;
+    }
+
+    .titulo-estoque{
+        display: flex;
+        flex-direction: row;
+
+        max-width: 20rem;
+        max-height: 10rem;
+    }
+
+    .titulo-estoque > h1{
+        font-size: 3.6rem;
+    }
+
+    .tabela-estoque{
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--column-color);
+
+    max-width: 40rem;
+    height: 41rem;
+    padding: 0.6rem;
+    
+    border-radius: 25px;
+    border: 1px solid var(--border-column-color);
+}
+
+
+}
+
+@media screen and (max-width: 480px) {
+    .logo-container {
+        border: transparent;
+        border-bottom: var(--border-column-color);
+        border-style: solid;
+
+        min-width: 5rem;
+        max-width: 7rem;
+    }
+
+    .navbar-title {
+        display: block;
+        font-family: Young Serif;
+
+        font-size: 0.8rem;
+        text-align: center;
+        color: var(--text-color-one);
+    }
+
+    .sidebar-container {
+        display: none;
+    }
+
+    .grid-infos {
+        display: grid;
+        grid-template-columns: repeat( 1, minmax(0, 1fr));
+
+        gap: 4rem;
+
+        z-index: 1;
+        align-items: start;
+    }
+
+    .main-infos-container {
+        display: flex;
+
+        justify-content: center;
+        padding-top: 3rem;
+
+        flex: 1;
+    }
+
+    .titulo-estoque{
+        display: flex;
+        flex-direction: row;
+
+        max-width: 20rem;
+        max-height: 6rem;
+    }
+
+    .titulo-estoque > h1{
+        font-size: 3rem;
+    }
+
+    .tabela-estoque{
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--column-color);
+
+    max-width: 30rem;
+    height: 41rem;
+    padding: 0.6rem;
+    
+    border-radius: 25px;
+    border: 1px solid var(--border-column-color);
+}
+
+    .estoque-text-field{
+        max-width: 10rem;
+        height: 2rem;
+
+        padding: 0 1rem;
+
+        border: none;
+        border-radius: 25px;
+
+        background-color: var(--text-field-colour);
+
+        color: white;
+
+        font-family: Alan Sans;
+        font-size: 1rem;
+
+        box-sizing: border-box;
+    }
+
+
+    .tabela-estoque-grid span:nth-child(3){
+    display: none;
+}
+
+    .tabela-estoque-valores span:nth-child(5n + 3){
+    display: none;
+}
+    .tabela-estoque-grid{
+    grid-template-columns: 0.5fr 1fr 0.5fr 0.5fr;
+}
+
+.tabela-estoque-valores{
+    grid-template-columns: 0.5fr 1fr 0.5fr 0.5fr;
+}
+
+.nav-field{
+        display: flex;
+        gap: 0.6rem;
+        padding-left: 1rem;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .nav-field> p{
+        white-space: nowrap;
+    }
+
+    .pesquisa{
+        gap: 0.4rem;
+    }
+
+    .estoque-text-field{
+        width: 7rem;
+        height: 1.8rem;
+
+        font-size: 0.7rem;
+        padding: 0 0.6rem;
+    }
+
+    .estoque-text-field::placeholder{
+        font-size: 0.65rem;
+    }
+
+    .search-lupa{
+    width: auto;
+    height: 100%;
+
+    flex-shrink: 0;
+}
+
+.search-lupa svg{
+    width: 0.8rem !important;
+    height: 0.8rem !important;
+}
+
+}
+
+
+
+/*
+    ===============
+      Saldo do mês
+    ===============
+*/
+
+@media screen and (max-width: 1024px) {
+
+    .container-frame--infos > img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container-frame--infos > img {
+        display: none;
+    }
+
+    .info-top-content--value-container, .info-top-content--value-container svg {
+        display: none;
+    }
+}

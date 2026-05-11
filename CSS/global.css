@@ -24,6 +24,8 @@ html, body {
     --text-color-three: #A7383A;
     --text-color-four: #D9C4A8;
     --text-color-five: #479038;
+    --text-field-colour: #444444;
+    --text-textfield-colour: #575757;
 }
 h1, h3, p, span {
     color: var(--text-color-one);

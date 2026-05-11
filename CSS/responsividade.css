@@ -5,6 +5,7 @@
 */
 
 @media screen and (max-width: 1024px) {
+    
     .logo-container {
         border: transparent;
         border-bottom: var(--border-column-color);
@@ -77,21 +78,22 @@
 
         flex: 1;
     }
+
+    .nav-field {
+        padding: 0;
+    }
 }
 
 
 
 /*
-    ===============
-      Saldo do mês
-    ===============
+    ====================================
+      Saldo do mês e Preferência Musical
+    ====================================
 */
 
 @media screen and (max-width: 1024px) {
 
-    .container-frame--infos > img {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 480px) {
@@ -99,7 +101,30 @@
         display: none;
     }
 
-    .info-top-content--value-container, .info-top-content--value-container svg {
-        display: none;
+    .info-top-content--value-container {
+        display: none !important; /* Esse !important é pro CSS dar prioridade pra ele caso alguma outra coisa esteja sobrescrevendo as regras */
+    }
+
+    .container-frame--infos:nth-child(1) {
+        max-width: fit-content;
+        max-height: fit-content;
+
+        padding: 1rem;
+    }
+
+    .estoque-text-field {
+        max-width: 10.5rem;
+    }
+
+    input {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .nav-field > p{
+    font-family: Alan Sans ;
+    font-size: 1.2rem;
+
     }
 }

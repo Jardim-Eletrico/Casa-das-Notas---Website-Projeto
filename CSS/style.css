@@ -5,15 +5,16 @@
 @import url("global.css");
 @import url("layout.css");
 @import url("estoque.css");
-@import url("responsividade.css");
 @import url("icons.css");
 @import url("colors.css");
 @import url("background-decor.css");
+@import url("saldo_do_mes.css");
+@import url("responsividade.css");
 
 
 @font-face {
-    font-family: 'Hemerneus One';
+    font-family: 'Hermeneus One';
     src: url("../Assets/Fonts/HermeneusOne-Regular.ttf");
     font-weight: normal;
-    font-style: normal
+    font-style: normal;
 } 

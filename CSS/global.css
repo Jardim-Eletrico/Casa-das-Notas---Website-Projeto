@@ -12,7 +12,7 @@ html,body {
 }
 
 html, body {
-    font-size: clamp(14px, 1.2vw, 26px);
+    font-size: clamp(14px, 1vw, 26px);
 }
 
 :root {

@@ -215,6 +215,10 @@
     border-style: solid;
 }
 
+.container-frame--infos:nth-child(1) {
+    gap: 0;
+}
+
 .content-config {
     display: flex;
     flex-direction: column;

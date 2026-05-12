@@ -43,7 +43,7 @@
         border-bottom: var(--border-column-color);
         border-style: solid;
 
-        min-width: 5rem;
+        min-width: 5.4rem;
         max-width: 7rem;
     }
 
@@ -105,11 +105,11 @@
         display: none !important; /* Esse !important é pro CSS dar prioridade pra ele caso alguma outra coisa esteja sobrescrevendo as regras */
     }
 
-    .container-frame--infos:nth-child(1) {
+    .container-frame--infos {
         max-width: fit-content;
         max-height: fit-content;
 
-        padding: 1rem;
+        padding: 0.6rem;
     }
 
     .estoque-text-field {
@@ -122,9 +122,12 @@
         white-space: nowrap;
     }
 
+    .nav-field {
+        gap: 1rem;
+    }
+
     .nav-field > p{
     font-family: Alan Sans ;
-    font-size: 1.2rem;
-
+    font-size: 1rem;
     }
 }

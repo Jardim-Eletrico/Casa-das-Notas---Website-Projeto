@@ -119,6 +119,10 @@
         padding: 1rem;
     }
 
+    .container-frame--infos:nth-child(1) {
+        max-width: fit-content;
+    }
+
     .estoque-text-field {
         max-width: 10.5rem;
     }

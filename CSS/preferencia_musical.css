@@ -24,3 +24,7 @@
 
     color: var(--text-color-one);
 }
+
+.nav-field {
+    align-self: flex-start;
+}

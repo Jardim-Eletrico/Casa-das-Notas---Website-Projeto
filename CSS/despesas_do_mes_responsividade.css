@@ -5,7 +5,7 @@
 
     .info-bottom-content--overall, .info-bottom-content--values {
         grid-template-columns: 1fr 1fr 0.5fr 0.75fr 0.5fr !important;
-        width: fit-content;
+        width: 100%;
     }
 }
 

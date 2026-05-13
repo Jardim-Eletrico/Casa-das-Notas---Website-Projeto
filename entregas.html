@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Despesas do Mês</title>
+    <title>Entregas</title>
     <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/despesas_do_mes.css">
-    <link rel="stylesheet" href="./CSS/despesas_do_mes_responsividade.css">
+    <link rel="stylesheet" href="./CSS/entregas.css">
+    <link rel="stylesheet" href="./CSS/entregas_responsividade.css">
 </head>
 <body>
     <div class="main-content">
@@ -49,68 +49,69 @@
                 <div class="content-config">
 
                     <div class="container-frame--infos">
-                        <h2 class="info-top-content--title">Despesas do Mês</h2>
-                        <div class="info-top-content--value-container">
-                            <h2 class="info-top-content--value">R$6767,00</h2>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="info-top-content--value-svg-adjustment bi bi-wallet" viewBox="0 0 16 16"><path d="M0 3a2 2 0 0 1 2-2h13.5a.5.5 0 0 1 0 1H15v2a1 1 0 0 1 1 1v8.5a1.5 1.5 0 0 1-1.5 1.5h-12A2.5 2.5 0 0 1 0 12.5zm1 1.732V12.5A1.5 1.5 0 0 0 2.5 14h12a.5.5 0 0 0 .5-.5V5H2a2 2 0 0 1-1-.268M1 3a1 1 0 0 0 1 1h12V2H2a1 1 0 0 0-1 1"/></svg>
-                        </div>
-                        <img src="./Assets/Images/despesas_mes_graph.png" alt="">
+                        <h2 class="info-top-content--title">Entregas</h2>
                     </div>
 
                     <div class="container-frame--infos">
+                        <div class="nav-field">
+                            <p>Pesquisar com filtro</p>
+
+                            <div class="pesquisa">
+                                <div class="search-lupa">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/></svg>
+                                </div>
+
+                                <input
+                                    type="text"
+                                    class="estoque-text-field"
+                                    placeholder="ID, nome, categoria ou fornecedor"
+                                />
+                            </div>
+                        </div>
                         <div class="info-bottom-content--overall">
-                            <span>Nome</span>
-                            <span>Categoria</span>
-                            <span>Tipo</span>
+                            <span>Pedido ID</span>
+                            <span>Cliente ID</span>
+                            <span>Produto ID</span>
+                            <span>Data</span>
+                            <span>Status</span>
                             <span>Valor R$</span>
-                            <span>Frequência</span>
-                            <span>Observações</span>
                         </div>
 
                         <div class="info-bottom-content--values-container">
                             <div class="info-bottom-content--values">
-                                <span>Servidor AWS</span>
-                                <span>Infraestrutura</span>
-                                <span>Fixo</span>
-                                <span>80,00</span>
-                                <span>Mensal</span>
-                                <span>Pode aumentar com o uso</span>
+                                <span>00000001</span>
+                                <span>ID</span>
+                                <span>Produto ID</span>
+                                <span>Data</span>
+                                <span>Pendente</span>
+                                <span>Valor</span>
                             </div>
 
                             <div class="info-bottom-content--values">
-                                <span>Armazenamento S3</span>
-                                <span>Infraestrutura</span>
-                                <span>Variável</span>
-                                <span>30,00</span>
-                                <span>Mensal</span>
-                                <span>Depende dos Arquivos</span>
+                                <span>00000002</span>
+                                <span>ID</span>
+                                <span>Produto ID</span>
+                                <span>Data</span>
+                                <span>Pago</span>
+                                <span>Valor</span>
                             </div>
 
                             <div class="info-bottom-content--values">
-                                <span>Mercado Pago</span>
-                                <span>Taxas de Pagamento</span>
-                                <span>Variável</span>
-                                <span>184,00</span>
-                                <span>Mensal</span>
-                                <span>Taxa das vendas</span>
+                                <span>00000003</span>
+                                <span>ID</span>
+                                <span>Produto ID</span>
+                                <span>Data</span>
+                                <span>Entregue</span>
+                                <span>Valor</span>
                             </div>
 
                             <div class="info-bottom-content--values">
-                                <span>Royalties</span>
-                                <span>Licenciamento</span>
-                                <span>Variável</span>
-                                <span>4077,00</span>
-                                <span>Mensal</span>
-                                <span>50% das vendas do mês</span>
-                            </div>
-
-                            <div class="info-bottom-content--values">
-                                <span>Dev Contratado</span>
-                                <span>Manutenção</span>
-                                <span>Fixo</span>
-                                <span>500,00</span>
-                                <span>Fixo</span>
-                                <span></span>
+                                <span>00000004</span>
+                                <span>ID</span>
+                                <span>Produto ID</span>
+                                <span>Data</span>
+                                <span>Cancelado</span>
+                                <span>Valor</span>
                             </div>
 
                         </div>

@@ -1,6 +1,10 @@
+.container-frame--infos {
+    max-width: 68rem;
+}
+
 .info-bottom-content--overall {
     display: grid;
-    grid-template-columns: 0.25fr 0.5fr 1fr 0.25fr;
+    grid-template-columns: 0.5fr 1.5fr 1fr 0.75fr 0.75fr 0.75fr;
 
     width: 100%;
     height: auto;
@@ -15,7 +19,7 @@
 
 .info-bottom-content--values {
     display: grid;
-    grid-template-columns: 0.25fr 0.5fr 1fr 0.25fr;;
+    grid-template-columns: 0.5fr 1.5fr 1fr 0.75fr 0.75fr 0.75fr;
 
     gap: 1rem;
 

@@ -1,0 +1,34 @@
+.container-frame--infos {
+    max-width: 68rem;
+}
+
+.info-bottom-content--overall {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr 0.75fr 0.75fr 0.75fr;
+
+    width: 100%;
+    height: auto;
+
+    gap: 1rem;
+
+    font-family: IM FELL French Canon SC;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: var(--text-color-one);
+}
+
+.info-bottom-content--values {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr 0.75fr 0.75fr 0.75fr;
+
+    gap: 1rem;
+
+    width: 100%;
+    height: auto;
+
+    color: var(--text-color-one);
+}
+
+.nav-field {
+    align-self: flex-start;
+}

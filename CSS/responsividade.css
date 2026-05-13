@@ -88,19 +88,12 @@
 
 /*
     ====================================
-      Saldo do mês, Preferência Musical e Despesas do Mês
+      Saldo do mês, Preferência Musical, Despesas do Mês, Artistas e Entregas
     ====================================
 */
 
 @media screen and (max-width: 1024px) {
-    .info-bottom-content--overall span:nth-child(6), .info-bottom-content--values span:nth-child(6) {
-        display: none;
-    }
-
-    .info-bottom-content--overall, .info-bottom-content--values {
-        grid-template-columns: 1fr 1fr 0.5fr 0.75fr 0.5fr !important;
-        width: fit-content;
-    }
+    
 }
 
 @media screen and (max-width: 480px) {
@@ -140,17 +133,6 @@
     .nav-field > p{
     font-family: Alan Sans ;
     font-size: 1rem;
-    }
-
-    .info-bottom-content--overall span:nth-child(3),
-    .info-bottom-content--overall span:nth-child(5),
-    .info-bottom-content--values span:nth-child(3),
-    .info-bottom-content--values span:nth-child(5) {
-        display: none;
-    }
-
-    .info-bottom-content--overall, .info-bottom-content--values {
-        grid-template-columns: repeat(3, 0.5fr) !important;
     }
 
     .info-top-content--title {

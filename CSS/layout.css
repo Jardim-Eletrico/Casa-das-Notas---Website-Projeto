@@ -144,17 +144,20 @@
     z-index: 1;
 }
 
-.sidebar-container > p {
+.sidebar-container > a {
     font-family: Inter;
     font-size: 1rem;
+    text-decoration: none;
+  
+    color: var(--text-color-one);
 }
 
 .sidebar-container > a:hover {
     background-color: var(--border-column-color);
     border-radius: 20px;
     padding: 0.5rem;
-}
 
+}
 
 /*
     ===================

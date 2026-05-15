@@ -6,11 +6,6 @@
 */
 
 @media screen and (max-width: 1024px) {
-    .logo-container {
-        border: transparent;
-        border-bottom: var(--border-column-color);
-        border-style: solid;
-    }
 
     .sidebar-container {
         display: none;
@@ -66,13 +61,8 @@
 }
 
 @media screen and (max-width: 480px) {
-    .logo-container {
-        border: transparent;
-        border-bottom: var(--border-column-color);
-        border-style: solid;
-
-        min-width: 5rem;
-        max-width: 7rem;
+    .logo-value {
+        width: auto;
     }
 
     .navbar-title {

@@ -4,12 +4,36 @@
     =============
 */
 
+@media screen and (min-width: 1024px) {
+    #hamburguer {
+        display: none;;
+    }
+
+    .logo-container a {
+        height: 100%;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     
-    .logo-container {
-        border: transparent;
-        border-bottom: var(--border-column-color);
-        border-style: solid;
+    #logo {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        text-decoration: none;
+    }
+
+    #hamburguer {
+        display: block;
+        min-width: 2rem;
+        height: auto;
+    }
+
+    .logo-container a {
+        height: 100%;
+        width: auto;
     }
 
     .sidebar-container {
@@ -35,13 +59,16 @@
 
         flex: 1;
     }
+
+    .logo-value {
+
+        min-width: 5.4rem;
+        max-width: 7rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
-    .logo-container {
-        border: transparent;
-        border-bottom: var(--border-column-color);
-        border-style: solid;
+    .logo-value {
 
         min-width: 5.4rem;
         max-width: 7rem;
@@ -83,8 +110,6 @@
         padding: 0;
     }
 }
-
-
 
 /*
     ====================================

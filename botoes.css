@@ -1,0 +1,17 @@
+.button-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    background-color: none;
+    width: fit-content; 
+    font-family: Young Serif; 
+    padding: 5px; 
+    border-radius: 10px;  
+} 
+
+.button-container:hover {
+    background-color:  #757575; 
+    cursor: pointer; 
+}
+
+

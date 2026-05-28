@@ -1,4 +1,4 @@
-.estoque-container {
+.form-container {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -13,7 +13,7 @@
     z-index: 2;
 }
 
-.estoque-container h1 {
+.form-container h1 {
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -23,7 +23,7 @@
     
 }
 
-.form-container {
+.form-values {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
@@ -33,7 +33,7 @@
     color: white;
 }
 
-.estoque-container input{
+.form-container input{
     width: 100%;
     height: 30px;
     border-radius: 30px;

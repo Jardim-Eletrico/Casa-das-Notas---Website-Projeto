@@ -68,20 +68,19 @@
 }
 
 @media screen and (max-width: 480px) {
+    .nav-field p {
+        display: none;
+    }
+
     .logo-value {
 
         min-width: 5.4rem;
         max-width: 7rem;
     }
 
-    .navbar-title {
-        display: block;
-        font-family: Young Serif;
-
-        font-size: 0.8rem;
-        text-align: center;
-        color: var(--text-color-one);
-    }
+    .navbar-space h1 {
+        display: none;
+    } 
 
     .sidebar-container {
         display: none;

@@ -1,0 +1,107 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;    
+    background-color: var(--background-base-color);
+    width: 40%;
+    border-radius: 10px;
+    border: solid var(--border-column-color) 1px;
+    
+    padding: 1rem;
+    z-index: 1;
+}
+
+
+.login-container h1 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.login-values {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 100%;
+
+    color: white;
+}
+
+.login-values p{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-self: center;
+    font-size: 15px;
+
+}
+
+.login-container input{
+    width: 100%;
+    height: 30px;
+    border-radius: 30px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.botao-login{
+    padding: 1.2rem;
+    background-color: var(--border-column-color);
+    border-radius: 10px;
+    font-family: Hermeneus One;
+    width: 100%;
+
+    color: white;
+    text-align: center;
+}
+
+.botao-login:hover{
+    cursor: pointer;
+    background-color: #adadad;
+}
+
+
+.cadastro{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    gap: 10px;
+}
+
+.cadastro a{
+    text-decoration: none;
+    color: var(--text-color-two);
+
+    font-weight: bold;
+}
+
+.cadastro a:active{
+    color: yellow;
+}
+
+.esqueceu-senha{
+    align-self: self-start;
+    justify-self: flex-start;
+    text-decoration: none;
+    color: white;
+}
+
+.esqueceu-senha a{
+    text-decoration: none;
+    color: white;
+}
+
+.esqueceu-senha a:hover, .cadastro a:hover{
+    text-decoration: underline;
+    color: var(--border-column-color);
+}

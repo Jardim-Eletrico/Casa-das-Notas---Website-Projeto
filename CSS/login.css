@@ -8,6 +8,8 @@
     border-radius: 10px;
     border: solid var(--border-column-color) 1px;
     
+    font-family: Young Serif;
+
     padding: 1rem;
     z-index: 1;
 }

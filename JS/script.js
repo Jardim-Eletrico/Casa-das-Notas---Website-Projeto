@@ -6,7 +6,7 @@ function toggleSideBar() {
         hamburguer.style.transform = "rotate(0deg)";
     } else {
         sideBar.style.display = "flex";
-        sideBar.style.position = "absolute";
+        sideBar.style.position = "absolute";    
         sideBar.style.zIndex = "2";
         hamburguer.style.transform = "rotate(90deg)";
     }
